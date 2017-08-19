@@ -1,6 +1,6 @@
 # Gomoku     EIGHT x EIGHT
 
-<b> See instruction of how to run the Algorithm at the bottom of this README </b>
+<b> <i> See instruction of how to run the Algorithm at the bottom of this README </i> </b>
 
 <h2> <i> About algorithm </i> </h2> 
     
@@ -12,7 +12,8 @@
  
    <h2> <i>How scores are computed  </i> </h2> 
  Scores are computed for each entry on the board by gomokuHeuristicFunction. The scores are awarded as follows: 1 entry = 1 point, 2 entries in the row = 10 points, 3 entries in the row = 100 points, 4 entries in the row = 1,000 points and finally, 5 entries in the row = 10,000 points. It is important to mention that the scores are exponentials because 2 entries next to each other in the same row/column/diagonal are not as good as 2 entries in random places of the same row/column/diagonal. Also, gomokuHeuristicFuntion takes into account spaces between entries. For example, if certain row contains  - - X X - X - - , then it will be considered to be equally good as - - X X - X - - because if the gap is filled in, then it is a winning condition. Therefore, maxPlayer will always prevent minPlayer getting to this state by blocking the gaps and in turn, will try to create same states for itself. 
- 
+ <p>
+ <p>
           How to Run the Algorithm
  <p> In oreder to run the algorithm follow these steps
  <p> 1)Clone this repository in your local one (kind of obvious)
