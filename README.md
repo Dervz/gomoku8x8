@@ -16,7 +16,7 @@
  
           How to Run the Algorithm
  <p>
- <p> In oreder to run the algorithm follow these steps
+ <p> In order to run the algorithm follow these steps:
  <p> 1)Clone this repository in your local one (kind of obvious)
  <p> 2)cd from cmd into the directory
  <p> 3)Run GomokuReferee class (thats where the main is)
